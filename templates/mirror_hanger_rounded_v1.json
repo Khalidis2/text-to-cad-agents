@@ -1,0 +1,20 @@
+{
+  "template_id": "mirror_hanger_rounded_v1",
+  "product_type": "car_mirror_hanger",
+  "engine": "cadquery",
+  "defaults": {
+    "width_mm": 75,
+    "height_mm": 45,
+    "thickness_mm": 4,
+    "corner_radius_mm": 5,
+    "hole_diameter_mm": 5,
+    "hole_center_y_from_top_mm": 7,
+    "raised_text_depth_mm": 0.8
+  },
+  "constraints": {
+    "min_wall_mm": 0.8,
+    "min_text_height_mm": 6,
+    "min_raised_text_depth_mm": 0.6,
+    "recommended_materials": ["PLA", "PETG"]
+  }
+}
